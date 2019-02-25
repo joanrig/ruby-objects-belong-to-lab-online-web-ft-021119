@@ -1,7 +1,8 @@
 class Artist
-  :song :genre
+  :name :genre
 
-  def initialize(genre)
+  def initialize(name, genre)
+    @name = name
     @genre = genre
   end
 
