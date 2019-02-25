@@ -6,4 +6,7 @@ class Artist
     @genre = genre
   end
 
+  @name = Artist.new.name
+  @genre = Artist.new.genre
+
 end
