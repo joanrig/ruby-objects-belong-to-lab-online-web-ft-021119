@@ -1,9 +1,10 @@
 class Song
   :title :artist
 
-  def initialize(title, artist)
+  def initialize(title)
     @title = title
-    @artist = artist
   end
+
+  @artist = Song.new.artist
 
 end
